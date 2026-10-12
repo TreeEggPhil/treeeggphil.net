@@ -1,0 +1,55 @@
+body {
+    background: black;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+}
+a {
+    color: aqua;
+}
+a:hover {
+    color: purple;
+}
+img {
+    display: block;
+    margin: auto;
+}
+/*scrollbar*/
+::-webkit-scrollbar {
+    background-color: black;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 100px;
+}
+div.icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.icon img {
+    transition: 1s;
+    padding: 15px;
+    height: auto;
+    margin: auto;
+}
+div.icon img:hover {
+    transform:scale(1.02);
+}
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.gallery img {
+    transition: 1s;
+    padding: 15px;
+    height: auto;
+}
+div.gallery img:hover {
+    transform: scale(1.1);
+}
