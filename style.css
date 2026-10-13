@@ -34,6 +34,8 @@ div.directory {
 div.icon img {
     transition: 1s;
     padding: 15px;
+    max-width: 100%;
+    width: auto;
     height: auto;
     margin: auto;
 }
